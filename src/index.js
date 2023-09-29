@@ -1,5 +1,4 @@
 import express from 'express';
-import { pool } from './db.js';
 import motorRoutes from './routes/motor.routes.js'
 const app = express();
 
