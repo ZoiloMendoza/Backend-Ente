@@ -1,13 +1,13 @@
 import { Router } from "express";
-import { getMotores } from "../controllers/motor.controller";
+import { getMotores, createMotores, updateMotores, deleteMotores } from "../controllers/motor.controller.js";
 const router = Router()
 
 router.get('/motores', getMotores)
 
-router.post('/motores', (req, res) => res.send('Crear motor'))
+router.post('/motores', createMotores)
 
-router.put('/motores', (req, res) => res.send('Actualizar motor'))
+router.put('/motores', updateMotores)
 
-router.delete('/motores', (req, res) => res.send('Elmininar motor'))
+router.delete('/motores', deleteMotores)
 
 export default router
