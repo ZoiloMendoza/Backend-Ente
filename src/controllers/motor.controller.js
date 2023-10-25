@@ -10,7 +10,7 @@ export const createMotores = (req, res) => {
   res.send('Post success');
   */
 };
-
+//coplementando
 export const updateMotores = (req, res) => res.send('actualizando motor');
 //añadiendo texto
 export const deleteMotores = (req, res) => res.send('Eliminando motor');
