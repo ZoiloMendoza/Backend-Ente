@@ -14,6 +14,7 @@ export const createMotores = (req, res) => {
 export const updateMotores = (req, res) => res.send('actualizando motor');
 //añadiendo texto
 //pendiente validaciones
+//app.js
 export const deleteMotores = (req, res) => res.send('Eliminando motor');
 
 
