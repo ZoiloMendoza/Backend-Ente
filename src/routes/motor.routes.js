@@ -7,7 +7,7 @@ router.get('/motores', getMotores)
 router.post('/motores', createMotores)
 
 router.put('/motores', updateMotores)
-
+// debes validar estos cambios
 router.delete('/motores', deleteMotores)
 
 export default router
