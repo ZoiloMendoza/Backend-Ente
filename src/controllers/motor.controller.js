@@ -13,6 +13,7 @@ export const createMotores = (req, res) => {
 //coplementando
 export const updateMotores = (req, res) => res.send('actualizando motor');
 //añadiendo texto
+//pendiente validaciones
 export const deleteMotores = (req, res) => res.send('Eliminando motor');
 
 
